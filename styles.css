@@ -1,9 +1,10 @@
 body{
     background-color: #fffbf7;
+    margin:0px;
 }
 
 h1 {
-    color:#025157;
+    color:red;
     text-align: center;
 }
 
@@ -23,4 +24,85 @@ button {
     border-color: #025157;
 }
 
+figure {
+    width:50%;
+}
 
+.logo_matcha{
+    width: 50px;
+}
+
+.header{
+    margin: 40px 20px 0;
+    font-size: 0;
+}
+
+.header  > * {
+    display: inline-block;
+    font-size: 16px;
+    vertical-align: middle;
+    height: 100%;
+    line-height: 45px;
+}
+
+.header li{
+    display: inline;
+    margin: 0 15px;
+}
+
+.header ul{
+    padding: 0;
+}
+
+.navbar{
+    width: 60%;
+    text-align: center;
+    color:#025157;
+    font-weight: 500;
+}
+
+.actions{
+    width: 20%;
+    text-align: right;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.image_matcha{
+    width: 20%;
+}
+
+.main{
+    text-align: center;
+}
+
+.first_image{
+    width:20%;
+    text-align: center;
+}
+
+.second_image{
+    width:50%;
+    text-align: center;
+}
+
+.actions button{
+    background-color: #67b54b;
+    color: white;
+    border-radius: 5px;
+    border: none;
+    padding: 20px;
+}
+
+.actions a{
+    color:#67b54b;
+    text-decoration: none;
+    margin: 0 15px;
+}
+
+.main h1{
+    font-family: 'Alegreya', serif;
+    font-size: 48px;
+    font-weight: 900;
+    color:#025157;
+}
