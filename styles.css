@@ -1,85 +1,23 @@
-body{
+body {
     background-color: #fffbf7;
-    margin:0px;
-    font-family: 'Alegreya', serif;
-    font-family: 'Open Sans', sans-serif;
-    font-size: 16px;
-}
-
-h1 {
-    color:#025157;
-    text-align: center;
+    margin: 0;
+    font-family: "Open Sans", sans-serif;
 }
 
 h3 {
-    text-align: center;
+    color: #46484c;
 }
 
-.gray-color {
-    text-align: center;
-    color:#8b8b8bcc;
+.color-gris-seccion-inicial {
+    color: #8b8b8bcc;
 }
 
 button {
-    background-color:#025157;
-    color: white;
-    text-align: center;
-    border-color: #025157;
+    color: #ffffff;
+    background-color: #025157;
 }
 
-figure {
-    width:50%;
-}
-
-.logo_matcha{
-    width: 50px;
-}
-
-.header{
-    margin: 40px 20px 0;
-    font-size: 0;
-}
-
-.header  > * {
-    display: inline-block;
-    font-size: 16px;
-    vertical-align: middle;
-    height: 100%;
-    line-height: 45px;
-}
-
-.header li{
-    display: inline;
-    margin: 0 15px;
-}
-
-.header ul{
-    padding: 0;
-}
-
-.navbar{
-    width: 60%;
-    text-align: center;
-    color:#025157;
-    font-weight: 500;
-}
-
-.actions{
-    width: 20%;
-    text-align: right;
-    font-size: 14px;
-    font-weight: 600;
-}
-
-.image_matcha{
-    width: 20%;
-}
-
-.main{
-    text-align: center;
-    margin:260px 0;
-}
-.main_nav{
+.main-nav {
     position: fixed;
     top: 0;
     left: 0;
@@ -87,162 +25,200 @@ figure {
     background-color: #fffbf7;
 }
 
-.first_image{
-    width:20%;
+.header {
+    margin: 40px 20px 0;
+    font-size: 0;
+}
+
+.header > * {
+    display: inline-block;
+    font-size: 16px;
+    vertical-align: middle;
+    height: 100%;
+    line-height: 45px;
+}
+
+.header li {
+    display: inline;
+    margin: 0 15px;
+}
+
+.header ul {
+    padding: 0;
+}
+
+.logo_matcha {
+    width: 50px;
+}
+
+.imagen_matcha {
+    width: 20%;
+}
+
+.navbar {
+    width: 60%;
     text-align: center;
+    color: #025157;
+    font-weight: 500;
 }
 
-.second_image{
-    width:50%;
-    text-align: center;
+.actions {
+    width: 20%;
+    text-align: right;
+    font-size: 14px;
+    font-weight: 600;
 }
 
-.actions button{
-    background-color: #67b54b;
-    color: white;
-    border-radius: 5px;
-    border: none;
-    padding: 20px;
-}
-
-.actions a{
-    color:#67b54b;
+.actions a {
+    color: #67b54b;
     text-decoration: none;
     margin: 0 15px;
 }
 
-.main h1{
+.actions button {
+    border-radius: 5px;
+    background-color: #67b54b;
+    color: #ffffff;
+    border: none;
+    padding: 20px;
+}
+
+.first-image {
+    width: 20%;
+    text-align: center;
+}
+
+.second-image {
+    width: 50%;
+    text-align: center;
+}
+
+.main {
+    text-align: center;
+    margin-top: 260px;
+}
+
+.main h1 {
     font-family: 'Alegreya', serif;
     font-size: 48px;
     font-weight: 900;
-    color:#025157;
+    color: #025157;
 }
 
-
-.publish{
-    display:flex;
-    flex-direction: row;
+.publish {
+    display: flex;
     width: 70%;
     margin: 100px auto;
     align-items: center;
 }
 
-.publish .publicidad .titulo-publish{
+
+.publish .publicidad .titulo-publish {
     font-family: 'Alegreya', serif;
     font-size: 36px;
     font-weight: 900;
-    color:#025157;
-    margin-top: 0px;
+    color: #025157;
+    margin-top: 0;
 }
 
-.publish .video{
+.publish .publicidad .color-gris {
+    color: #8b8b8bcc;
+}
+
+.publish .video {
     flex: 1;
 }
 
-.publish .publicidad .color-gris{
-    color:#8b8b8bcc;
-}
-
-.publish .video .video-contenedor{
+.publish .video .video-contenedor {
     width: 90%;
 }
 
-.publish .video .video-contenedor .cuadro-video{
+.publish .video .video-contenedor .cuadro-video {
     width: 100%;
 }
 
-.publish .video .cuadro-video{
-    width: 100%;
-}
-
-.publish .video .see-how-it-works{
+.publish .video .see-how-it-works {
     display: flex;
     justify-content: center;
 }
 
-.publish .video .see-how-it-works .green-arrow{
+.publish .video .see-how-it-works .green-arrow {
     width: 50px;
 }
 
-.publicidad{
+.publish .publicidad {
     flex: 1;
 }
 
 .features {
     display: grid;
-    padding: 5% 10%;
     grid-template: repeat(2, 1fr) / repeat(2, 1fr);
-    height: 800px;
-    gap: 30px;
+    height: 600px;
     background-color: #025157;
+    padding: 5% 10%;
+
+    /* se va a borrar al final */
+    margin-bottom: 200px;
 }
 
-.features .feature_card {
-    margin: 0, 15px, 30px;
+.feature-card {
+    margin: 0 15px 20px;
+}
+
+.feature-content {
     background-color: #fff;
-    border-radius: 5px;
+    border-radius: 10px;
+    height: 100%;
     display: flex;
     align-items: center;
     overflow: hidden;
-  }
+}
 
-  .features .feature_card .feature-content {
-    padding: 30px 20px 40px 40px;
+.feature-content .feature-text {
     flex: 2;
-    text-align: left;
-    align-items: center;
-    overflow: hidden;
-  }
+    padding: 15px 20px;
+}
 
-  .features .feature_card .feature-content img {
-    width: 50px;
-    flex: 1;
-  }
-
-  .features .feature_card .feature-content h3 {
+.feature-content .feature-text h3 {
     font-size: 24px;
     color: #343434;
     font-weight: 400;
-    text-align: left;
-  }
-
-  .features .feature_card .feature-content p {
+}
+.feature-content .feature-text p {
     font-size: 16px;
     color: #7e7e7e;
     font-weight: 400;
-    text-align: left;
-  }
-
-  .features .feature_card .feature-content a {
+}
+.feature-content .feature-text a {
     font-size: 16px;
     color: #67b54b;
     font-weight: 600;
     text-decoration: none;
-  }
-
-  .feature-content figure{
-    width: 100%;
-    }
-
-    .feature-content figure img{
-    width: 100%;
-    height: 20px;
-    }
-
-
-  .feature-image figure{
-      width: 100%;
-  }
-
-  .feature-image figure img{
-    width: 100%;
-    height: 10v0px;
 }
 
-.movimiento{
+.feature-text figure {
+    margin-left: 0;
+}
+
+.feature-text figure img {
+    height: 30px;
+}
+.feature-content .feature-image {
+    flex: 1
+}
+
+.feature-image figure {
+    width: 100%
+}
+
+.feature-image figure img {
+    width: 100%
+}
+
+.movimiento {
     transition: width 1s;
 }
 
-.movimiento:hover{
-    width: 5s;
+.movimiento:hover {
+    width: 150%;
 }
