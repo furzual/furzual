@@ -222,3 +222,104 @@ button {
 .movimiento:hover {
     width: 150%;
 }
+
+.how_matcha{
+    background-color: #fffbf7;
+    padding: 5% 10%;
+    text-align: center;
+}
+
+.how_matcha .how_matcha_title h3{
+    font-family: 'Alegreya', serif;
+    font-size: 50px;
+    font-weight: 900;
+    color: #025157;
+    margin-top: 0;
+}
+
+.how_matcha .how_matcha_title .how_matcha_description{
+    max-width: 60%;
+    color: #46484c;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1.5;
+    margin: 0 auto;
+    margin-bottom: 16px;
+}
+
+.how_matcha .how_matcha_title button {
+    font-size: 14px;
+    font-weight: 600;
+    padding: 12px 12px 6px 12px;
+    height: 45px;
+    margin-left: 0;
+    border-radius: 8px;
+    margin-top: 6px;
+}
+
+.how_matcha .steps {
+    margin-top: 70px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
+
+  .how_matcha .steps .card-step {
+    background-color: #fff;
+    border: 1px solid #dadada;
+    border-radius: 5px;
+    margin-left: 20px;
+    margin-right: 20px;
+    text-align: left;
+  }
+
+  .how_matcha .steps .card-step .card-step-image {
+    position: relative;
+    height: 350px;
+  }
+
+  .how_matcha .steps .card-step .card-step-image .card-step-icon {
+    position: absolute;
+    top: 25px;
+    left: 25px;
+    width: 21px;
+  }
+
+  .how_matcha .steps .card-step .card-step-image .card-step-bg {
+    width: 100%;
+    height: 100%;
+  }
+
+  .how_matcha .steps .card-step .card-step-body {
+    padding: 25px;
+  }
+
+  .how_matcha .steps .card-step .card-step-body h3 {
+    font-size: 30px;
+    line-height: 36px;
+    font-family: "Alegreya", serif;
+    color: #025157;
+    font-weight: 900;
+    text-align: center;
+  }
+
+  .how_matcha .steps .card-step .card-step-body p {
+    font-size: 15px;
+    line-height: 1.5;
+    color: #46484c;
+    font-weight: 400;
+    height: 85px;
+    margin-bottom: 16px;
+  }
+
+  .how_matcha .steps .card-step .card-step-body a {
+    font-size: 16px;
+    line-height: 1.4;
+    color: #67b54b;
+    font-weight: 600;
+    text-decoration: none;
+  }
+
+.green_formula{
+    color: #67b54b;
+    text-decoration: none;
+}
