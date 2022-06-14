@@ -23,7 +23,13 @@ button {
     left: 0;
     right: 0;
     background-color: #fffbf7;
+    z-index: 1;
 }
+
+.main-nav-color {
+    background-color: #fffbf7;
+}
+
 
 .header {
     margin: 40px 20px 0;
@@ -56,7 +62,6 @@ button {
 }
 
 .navbar {
-    width: 60%;
     text-align: center;
     color: #025157;
     font-weight: 500;
@@ -223,6 +228,58 @@ button {
     width: 150%;
 }
 
+.card-container{
+    background-color: #a1d683;
+    padding: 10% 0;
+}
+
+.comments {
+    padding: 0 15px;
+}
+
+.comments h1 {
+    color: #025157;
+    font-weight: bold;
+    text-align: left;
+    font-family: "Alegreya", serif;
+    font-weight: 900;
+    font-size: 51px;
+    line-height: 61px;
+    letter-spacing: -2px;
+}
+
+.comments p {
+    font-size: 18px;
+    color: #343434;
+    line-height: 1.5;
+    margin-bottom: 1rem;
+}
+
+.comments .btn-beefy {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    padding-top: 12px;
+    text-align: center;
+    color: #fff;
+    background: #025157;
+    border-radius: 8px;
+    height: 45px;
+    width: 166px;
+    transition: all .2s ease-in-out;
+}
+
+.comments .btn-beefy:hover {
+    background-color: #67b54b;
+    color: #fff;
+}
+
+.comments img {
+    margin: 40px 0;
+    padding-right: 10px;
+    width: 50%;
+}
+
 .how_matcha{
     background-color: #fffbf7;
     padding: 5% 10%;
@@ -323,3 +380,114 @@ button {
     color: #67b54b;
     text-decoration: none;
 }
+
+/* Media queries*/
+
+@media screen and (max-width: 425px){
+    body{
+        padding: 5px;
+    }
+
+    .main form{
+        margin-bottom: 25px;
+    }
+
+    .color-gris-seccion-inicial{
+        margin: 0;
+    }
+
+    .first-image{
+        width: 70%;
+    }
+
+    .second-image{
+        width:100%;
+    }
+
+    .main{
+        margin-top: 130px;
+    }
+
+    .main h1{
+        font-size: 30px;
+    }
+
+    .first-image{
+        width: 40;
+    }
+
+    .publish{
+        flex-direction: column;
+        margin: 15px auto;
+        width: 90%;
+    }
+
+    .features{
+        grid-template: repeat(4,1fr)/1fr;
+        height: fit-content;
+    }
+
+    .how_matcha .how_matcha_title h3{
+        font-size: 30px;
+        margin-top: 0;
+    }
+
+    .how_matcha .steps{
+        grid-template: repeat(4,1fr)/1fr;
+        height: fit-content;
+    }
+}
+
+.card-footer-bt {
+    border-radius: 5px;
+    width: 100%;
+    margin: 20px 0 20px;
+    background-color: #025157;
+    color: white;
+  }
+
+  .carousel-item .card h4 {
+    text-transform: uppercase;
+    color: #025157;
+    font-weight: 700;
+    font-size: 13px;
+    font-family: sans-serif;
+  }
+
+  .company img {
+    max-width: 75%;
+  }
+
+  .card .card-media img {
+    width: 100%;
+    max-height: 16vw;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+  }
+
+  .card .card-media figure {
+    margin-top: 0;
+  }
+
+  .card .card-media {
+    position: relative;
+  }
+
+  .card .card-media .company {
+    position: absolute;
+    bottom: -20px;
+    right: 20px;
+    width: 100px;
+    height: 100px;
+    background-color: #f9da73;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .card .card-media .company img {
+    max-width: 75%;
+  }
+
+
